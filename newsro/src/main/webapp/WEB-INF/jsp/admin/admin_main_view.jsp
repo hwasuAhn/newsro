@@ -19,17 +19,17 @@
 <body>
 	<div class="main">
 		<nav class="navbar" id="header">
-			<jsp:include page="/form/side/header.jsp"></jsp:include>
+			<jsp:include page="/side/header.jsp"></jsp:include>
 		</nav>
 		<div id="sub_header">
-			<jsp:include page="/form/admin/admin_sub_header.jsp"></jsp:include>
+			<jsp:include page="/admin/admin_sub_header.jsp"></jsp:include>
 		</div>
 		<div id="content">
 			<%-- <jsp:include page="/form/main/page_view.jsp"></jsp:include> --%>
-			<jsp:include page="/form/admin/admin_main_content.jsp"></jsp:include>
+			<jsp:include page="/admin/admin_main_content.jsp"></jsp:include>
 		</div>
 		<div class="container-fluid text-center">
-			<jsp:include page="/form/side/footer.jsp"></jsp:include>
+			<jsp:include page="/side/footer.jsp"></jsp:include>
 		</div> 
 	</div>
 </body>
