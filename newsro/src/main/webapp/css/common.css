@@ -1,0 +1,84 @@
+/* ���� CSS */
+.main {
+	margin : 0;
+	background-color: black;
+	/*  overflow:auto; 자동스크롤 */
+}
+
+.page-header {
+	color: #ffffff;	
+}
+
+h3 {
+	color: #fff;
+}		
+
+.navbar-brand {
+	padding-top: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#content {
+	height: 714px;
+}
+
+
+/* ������ ������ */	
+#sub_header{
+	margin: 0;
+	border-radius: 0;
+	background-color: #e60012;
+	padding: 5px;
+	color: white;
+}
+
+/* ���� ������ */
+.page_view_back{
+	background-color : black;
+	margin : -10;
+	padding : 0;
+	text-align: center;
+}
+
+.carousel.slide{
+	background-color : black;
+	text-align : center;
+}		
+		
+.carousel-inner > .item > img {
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	max-height: 500px;
+	text-align: cen ;
+}
+
+.row {
+	margin: 0px;
+}
+
+/* content */
+.sub_container {
+	background-color:white;
+	text-align: center;
+	padding: 50px;
+}
+
+/* footer */
+.container-fluid {
+	background-color: black;
+	color : white;
+	margin : 0;
+	left : 0;
+	right : 0;
+	bottom : 0;
+}
